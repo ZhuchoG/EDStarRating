@@ -124,6 +124,7 @@ typedef UIImage     EDImage;
 
 @optional
 -(void)starsSelectionChanged:(EDStarRating*)control rating:(float)rating;
+-(void)starsSelectionEndChanging:(EDStarRating*)control rating:(float)rating;
 
 @end
 
